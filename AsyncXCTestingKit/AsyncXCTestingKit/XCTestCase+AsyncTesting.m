@@ -51,7 +51,7 @@ static NSString * const kXCTestCaseAsyncTestingCategoryMethodPrefix = @"XCA_";
                             method_getImplementation(sourceClassMethod),
                             method_getTypeEncoding(sourceClassMethod));
     }
-    
+    NSLog(@"hahah");
 }
 
 + (BOOL)XCA_resolveInstanceMethod:(SEL)originalSelector {
